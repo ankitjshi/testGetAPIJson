@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dacfd3f-3620-4b80-8e4c-ee553e97433c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2DH7EFFev2QNNjSFv2qehMFuZjt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ankit/Downloads/Test_JP",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources\features" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources\data\requests\get" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\java\com\typecode\jsonplaceholder\cucumbertests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources\data\requests" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources\features" />
+      <recent name="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.typecode.jsonplaceholder.cucumbertests" />
+      <recent name="com.typecode.jsonplaceholder.cucumbertests.models.request" />
+      <recent name="com.typecode.jsonplaceholder.cucumbertests.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GetAPITestRunner">
+    <configuration name="Scenario: Validate if all posts are displayed single client 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetJsonPlaceholderTypicodeTests_u.feature" />
+      <option name="GLUE" value="com.typecode.jsonplaceholder.cucumbertests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.typecode.jsonplaceholder" />
+      <option name="NAME_FILTER" value="^Validate if all posts are displayed single client 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate if all posts are displayed single client 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate if all posts are displayed single client 1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validate if all posts are displayed single client" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetJsonPlaceholderTypicodeTests_u.feature" />
+      <option name="GLUE" value="com.typecode.jsonplaceholder.cucumbertests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="com.typecode.jsonplaceholder" />
+      <option name="NAME_FILTER" value="^Validate if all posts are displayed single client$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate if all posts are displayed single client$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate if all posts are displayed single client" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Validate that a user can have access to all the 100 posts when requested at once" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/GetJsonPlaceholderTypicodeTests_u.feature" />
+      <option name="GLUE" value="com.typecode.jsonplaceholder.cucumbertests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="jsonplaceholder-get-tests" />
+      <option name="NAME_FILTER" value="^Validate that a user can have access to all the 100 posts when requested at once$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validate that a user can have access to all the 100 posts when requested at once$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validate that a user can have access to all the 100 posts when requested at once" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAPITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonplaceholder-get-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="PACKAGE_NAME" value="com.typecode.jsonplaceholder.cucumbertests.testAPI" />
+      <option name="MAIN_CLASS_NAME" value="com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAPITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonplaceholder-get-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.typecode.jsonplaceholder.cucumbertests.testAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.typecode.jsonplaceholder.cucumbertests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAPITestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jsonplaceholder-get-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.typecode.jsonplaceholder.cucumbertests.apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.typecode.jsonplaceholder.cucumbertests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="com.typecode.jsonplaceholder.cucumbertests.apiTests.GetAPITestRunner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGetRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.typecode.jsonplaceholder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonPlaceholderTypicode.apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonPlaceholderTypicode.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="jsonPlaceholderTypicode.apiTests.TestGetRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: Validate if all posts are displayed single client" />
+      <item itemvalue="Cucumber Java.Scenario: Validate that a user can have access to all the 100 posts when requested at once" />
+      <item itemvalue="Cucumber Java.Scenario: Validate if all posts are displayed single client 1" />
+      <item itemvalue="JUnit.GetAPITestRunner" />
+      <item itemvalue="JUnit.TestGetRunner" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetAPITestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validate that a user can have access to all the 100 posts when requested at once" />
+        <item itemvalue="JUnit.TestGetRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dacfd3f-3620-4b80-8e4c-ee553e97433c" name="Changes" comment="" />
+      <created>1660344043405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660344043405</updated>
+      <workItem from="1660344044785" duration="9810000" />
+      <workItem from="1660384623853" duration="6894000" />
+      <workItem from="1660432348399" duration="2509000" />
+      <workItem from="1660434888946" duration="767000" />
+      <workItem from="1660435667078" duration="167000" />
+      <workItem from="1660435862888" duration="1592000" />
+      <workItem from="1660437494139" duration="1369000" />
+      <workItem from="1660438908076" duration="58000" />
+      <workItem from="1660438977537" duration="122000" />
+      <workItem from="1660439111324" duration="1510000" />
+      <workItem from="1660491565328" duration="2555000" />
+      <workItem from="1660500095973" duration="25090000" />
+      <workItem from="1660590315769" duration="12920000" />
+      <workItem from="1660606906095" duration="2500000" />
+      <workItem from="1660609442316" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/jsonPlaceholderTypicode/apiTests/TestPatchRunner.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/typecode/jsonplaceholder/cucumbertests/components/RequestExecutorComponent.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/typecode/jsonplaceholder/cucumbertests/components/Specification.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/typecode/jsonplaceholder/cucumbertests/components/RequestExecutorComponent.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/typecode/jsonplaceholder/cucumbertests/components/RequestExecutorComponent.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar!/io/restassured/builder/RequestSpecBuilder.class</url>
+          <line>41</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jsonplaceholder_get_tests$GetAPITestRunner.ic" NAME="GetAPITestRunner Coverage Results" MODIFIED="1660607787768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner</FILTER>
+    </SUITE>
+  </component>
+</project>
