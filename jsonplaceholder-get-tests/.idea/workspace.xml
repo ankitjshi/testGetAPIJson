@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ankit/Downloads/Test_JP",
+    "last_opened_file_path": "C:/Users/ankit/Downloads/Test_JP_2/jsonplaceholder-get-tests",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -227,7 +227,7 @@
       <workItem from="1660500095973" duration="25090000" />
       <workItem from="1660590315769" duration="12920000" />
       <workItem from="1660606906095" duration="2500000" />
-      <workItem from="1660609442316" duration="1340000" />
+      <workItem from="1660609442316" duration="1651000" />
     </task>
     <servers />
   </component>
