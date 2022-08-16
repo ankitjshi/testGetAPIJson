@@ -1,8 +1,0 @@
-com\typecode\jsonplaceholder\cucumbertests\testAPI\CommonStepDefs.class
-com\typecode\jsonplaceholder\cucumbertests\components\Specification.class
-com\typecode\jsonplaceholder\cucumbertests\components\RequestExecutorComponent$1.class
-com\typecode\jsonplaceholder\cucumbertests\models\response\PostResponse.class
-com\typecode\jsonplaceholder\cucumbertests\utils\Logger.class
-com\typecode\jsonplaceholder\cucumbertests\utils\ConfigProvider.class
-com\typecode\jsonplaceholder\cucumbertests\components\RequestExecutorComponent.class
-com\typecode\jsonplaceholder\cucumbertests\testAPI\GetAPITestRunner.class

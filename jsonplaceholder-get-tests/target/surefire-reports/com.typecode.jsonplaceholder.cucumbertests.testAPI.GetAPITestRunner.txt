@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner
--------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.746 sec - in com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner
