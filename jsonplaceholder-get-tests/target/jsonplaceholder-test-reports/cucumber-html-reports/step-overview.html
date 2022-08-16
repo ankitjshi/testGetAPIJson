@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Json Placeholder API Test Reports</td>
+                          <td>1</td>
+                        <td>16 Aug 2022, 01:49</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.base_environment_setup(java.lang.String)</td>
+                <td>18</td>
+                <td class="duration" data-value="455618900">455ms</td>
+                <td class="duration" data-value="25312161">025ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.fetch_random_endpoints_send_async_requests(int)</td>
+                <td>4</td>
+                <td class="duration" data-value="4087525300">4s 087ms</td>
+                <td class="duration" data-value="1021881325">1s 021ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.requestExecutionTimeShouldBeLessThanMilliseconds(int)</td>
+                <td>5</td>
+                <td class="duration" data-value="1820000">001ms</td>
+                <td class="duration" data-value="364000">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.setUp()</td>
+                <td>18</td>
+                <td class="duration" data-value="3394488500">3s 394ms</td>
+                <td class="duration" data-value="188582694">188ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.set_base_url_service(java.lang.String)</td>
+                <td>12</td>
+                <td class="duration" data-value="3986700">003ms</td>
+                <td class="duration" data-value="332225">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.testResourcePath(java.lang.String)</td>
+                <td>18</td>
+                <td class="duration" data-value="9156700">009ms</td>
+                <td class="duration" data-value="508705">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.user_access_to_posts(int)</td>
+                <td>2</td>
+                <td class="duration" data-value="990500">000ms</td>
+                <td class="duration" data-value="495250">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.user_recieves_empty_response(java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="8222700">008ms</td>
+                <td class="duration" data-value="1644540">001ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.user_request_specific_id_post(int)</td>
+                <td>1</td>
+                <td class="duration" data-value="138929000">138ms</td>
+                <td class="duration" data-value="138929000">138ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.user_request_specific_userid_post(int)</td>
+                <td>1</td>
+                <td class="duration" data-value="148395400">148ms</td>
+                <td class="duration" data-value="148395400">148ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.user_send_request_url(java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="3036899500">3s 036ms</td>
+                <td class="duration" data-value="506149916">506ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_all_fields_post()</td>
+                <td>1</td>
+                <td class="duration" data-value="4323700">004ms</td>
+                <td class="duration" data-value="4323700">004ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_all_fields_using_one_reference(int,int,java.lang.String,java.lang.String)</td>
+                <td>3</td>
+                <td class="duration" data-value="7146700">007ms</td>
+                <td class="duration" data-value="2382233">002ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_all_the_posts(java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="38407200">038ms</td>
+                <td class="duration" data-value="19203600">019ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_not_null_not_empty()</td>
+                <td>1</td>
+                <td class="duration" data-value="6774500">006ms</td>
+                <td class="duration" data-value="6774500">006ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_parallel_requests()</td>
+                <td>4</td>
+                <td class="duration" data-value="6407100">006ms</td>
+                <td class="duration" data-value="1601775">001ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_post_with_specific_id(java.lang.String)</td>
+                <td>1</td>
+                <td class="duration" data-value="6366400">006ms</td>
+                <td class="duration" data-value="6366400">006ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.validate_response_code_get_posts(int)</td>
+                <td>11</td>
+                <td class="duration" data-value="11253900">011ms</td>
+                <td class="duration" data-value="1023081">001ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">com.typecode.jsonplaceholder.cucumbertests.testAPI.CommonStepDefs.verifyGetPostsByUserId()</td>
+                <td>6</td>
+                <td class="duration" data-value="1427201600">1s 427ms</td>
+                <td class="duration" data-value="237866933">237ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>19</td>
+              <td>119</td>
+              <td class="duration">12s 793ms</td>
+              <td class="duration">107ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.typecode.jsonplaceholder.cucumbertests.testAPI.GetAPITestRunner" time="16.609" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ankit\Downloads\Test_JP\jsonplaceholder-get-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ankit\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jre1.8.0_321\bin;C:\Program Files (x86)\Java\jre1.8.0_321;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Rockwell Software\RSCommon;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jre1.8.0_321\bin;C:\Users\ankit\AppData\Roaming\npm;C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-18.0.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;."/>
+    <property name="maven.conf" value="C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ankit"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="ankit"/>
+    <property name="java.class.path" value="C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\ankit\Downloads\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Validate that a user accessing incorrect information is handled &apos;Invalid service 1&apos;" classname="Automation Regression for JsonPlaceholder Get Posts API - Negative Functional UseCases" time="6.362"/>
+  <testcase name="Validate that a user accessing incorrect information is handled &apos;Invalid service 2&apos;" classname="Automation Regression for JsonPlaceholder Get Posts API - Negative Functional UseCases" time="0.294"/>
+  <testcase name="Validate that a user accessing incorrect information is handled &apos;invalid post id&apos;" classname="Automation Regression for JsonPlaceholder Get Posts API - Negative Functional UseCases" time="0.22"/>
+  <testcase name="Validate that a user accessing incorrect information is handled &apos;invalid user id 1&apos;" classname="Automation Regression for JsonPlaceholder Get Posts API - Negative Functional UseCases" time="0.203"/>
+  <testcase name="Validate that a user accessing incorrect information is handled &apos;invalid user id 2&apos;" classname="Automation Regression for JsonPlaceholder Get Posts API - Negative Functional UseCases" time="0.17"/>
+  <testcase name="Validate that a user can have access to all the 100 posts when requested at once" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.579"/>
+  <testcase name="Validate that a user can see all the required fields in the posts with specific ids #1" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.219"/>
+  <testcase name="Validate that a user can see all the required fields in the posts with specific ids #2" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.264"/>
+  <testcase name="Validate that a user can see all the required fields in the posts with specific ids #3" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.183"/>
+  <testcase name="Validate that a user gets accurate information for all posts" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.231"/>
+  <testcase name="Validate that a user can have access to all the posts when requested without security certificate" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.168"/>
+  <testcase name="Validate that single user requests post with specific id" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.147"/>
+  <testcase name="Validate that single user request post with specific userid" classname="Automation Regression for JsonPlaceholder Get Posts API - Positive Functional UseCases" time="0.207"/>
+  <testcase name="Validate that a user can have access to all the posts in shorter time span" classname="Automation Regression for JsonPlaceholder Get Posts API - NonFunctional Performance" time="0.131"/>
+  <testcase name="Validate random posts access via multiple parallel hits #1" classname="Automation Regression for JsonPlaceholder Get Posts API - NonFunctional Performance" time="0.367"/>
+  <testcase name="Validate random posts access via multiple parallel hits #2" classname="Automation Regression for JsonPlaceholder Get Posts API - NonFunctional Performance" time="0.946"/>
+  <testcase name="Validate random posts access via multiple parallel hits #3" classname="Automation Regression for JsonPlaceholder Get Posts API - NonFunctional Performance" time="1.06"/>
+  <testcase name="Validate random posts access via multiple parallel hits #4" classname="Automation Regression for JsonPlaceholder Get Posts API - NonFunctional Performance" time="1.811"/>
+</testsuite>
